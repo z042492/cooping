@@ -1,0 +1,58 @@
+.wrap div.updated.fade{display:none}
+#myTabContent{padding:0 10px}
+.pure_desc{padding-bottom:10px;text-align:center;padding:10px;background:#6293af;font-size:2em}
+.pure_tit{color:#555;margin:0;border-bottom:1px solid #e5e5e5;background:#fafafa;height:30px;line-height:30px;padding:0 10px;font-size:15px}
+.bs-example-tabs .nav-tabs{margin-bottom:15px}
+.bs-callout-info{background-color:#f4f8fa;border-color:#bce8f1}
+.bs-callout{padding:20px;border-radius:5px;font-size:1.2em;color:#555}
+.bs-callout-danger{background-color:#fdf7f7;border-color:#eed3d7}
+.bs-callout-info h4{color:#34789a}
+.bs-callout h4{margin-top:0;margin-bottom:5px}
+.bs-callout-danger h4{color:#b94a48}
+.pure_wrap{position:relative;font-family:"Segoe UI","Lucida Grande","Microsoft YaHei",Helvetica,Arial,FreeSans,Arimo,"Droid Sans","wenquanyi micro hei","Hiragino Sans GB","Hiragino Sans GB W3","FontAwesome",sans-serif}
+.pure_wrap h2{color:#fff;padding-bottom:10px;text-align:center;padding:10px;background:#e4e4e4;font-size:2em}
+.pure_themedesc{font-size:14px;color:#fff}
+.pure_tip{color:#bbb;line-height:20px}
+#pure_form{font-family:"Century Gothic","Segoe UI",Arial,"Microsoft YaHei",Sans-Serif}
+.wrap{margin:0 0 0 -20px;background-color:#fff;font-size:12px;line-height:24px;color:#383838}
+.otakutable td{vertical-align:top;text-align:left;border:0;font-size:12px}
+.top td{vertical-align:middle;text-align:left;border:0;font-size:12px}
+table{border:0;font-size:12px}
+pre{white-space:pre;overflow:auto;line-height:19px;font-size:12px;border: 1px solid #eaeaea;padding: 10px 20px;border-radius: 10px;color: #fff;background: #424242;}
+strong{color:#666}
+textarea{width:100%;margin:0 20px 0 0;overflow:auto}
+.none{display:none}
+table{width:100%;background-color:transparent;border-collapse:collapse;border-spacing:0}
+table td{vertical-align:middle;padding-bottom:15px}
+table td.d_tit{padding-top:6px;vertical-align:top}
+dl{margin-bottom:15px}
+dt,dd{line-height:20px}
+dd{margin-left:10px}
+textarea,input.ipt-b,.pure_inp_short{height:auto;width:100%;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;padding:10px}
+.wrap div.updated{margin:0;border-bottom:solid 2px #ddd}
+#wpbody-content{padding:0!important}
+#wpfooter{display:none!important}
+.pure_inner{margin:0}
+.clearfix{clear:both}
+.pure_header{height:auto;width:100%}
+.pure_admincontent{direction:ltr;text-align:left;background:#f8f8f8}
+.pure_maintab{background:#FFF;border-left:1px solid #e1e1e1;padding:0 1.5%;float:left;width:74.88%;min-height:600px;position:relative;padding-bottom:15px;overflow:hidden}
+.pure_tab{width:21.9%;float:left;padding-bottom:25px}
+.pure_tab ul{margin:0}
+.pure_tab ul li{text-align:center;padding:8px 0;cursor:pointer;font-size:1.5em;height:24px;line-height:24px;color:#555;margin:0}
+.pure_tab ul li:hover{color:#FFF;background:#F66}
+.pure_tab ul li.pure_tab_on{background:#0da4d3;color:#FFF;font-weight:bold}
+.pure_li{border:1px solid #e5e5e5;margin:20px 0}
+.pure_cotl{padding:20px 10px;background:#fefefe}
+.pure-radio-img-img{border:3px solid #f9f9f9;margin:0 5px 10px 0;display:none;cursor:pointer;float:left}
+.pure-radio-color{display:inline-block;width:20px;height:20px;margin:0 5px 0 0}
+.pure-radio-img-selected{border:3px solid #ccc}
+.pure-radio-img-img:hover{opacity:.8}
+.catid{clear:both;overflow:hidden;display:block;padding:8.5px;margin:0 0 9px;font-size:12px;line-height:18px;background-color:#f5f5f5;border:1px solid #ccc;border:1px solid rgba(0,0,0,0.15);-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;white-space:pre;white-space:pre-wrap;word-break:break-all}
+.catid li{float:left;margin-right:30px}
+.tzCheckBox{background:url('background.png') no-repeat right bottom;display:inline-block;min-width:60px;height:33px;white-space:nowrap;position:relative;cursor:pointer;margin-left:14px;margin-bottom:10px}
+.tzCheckBox.checked{background-position:top left;margin:0 14px 10px 0}
+.tzCheckBox .tzCBContent{color:white;line-height:31px;padding-right:38px;text-align:right}
+.tzCheckBox.checked .tzCBContent{text-align:left;padding:0 0 0 38px}
+.tzCBPart{background:url('background.png') no-repeat left bottom;width:14px;position:absolute;top:0;left:-14px;height:33px;overflow:hidden}
+.tzCheckBox.checked .tzCBPart{background-position:top right;left:auto;right:-14px}

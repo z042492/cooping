@@ -1,0 +1,154 @@
+/*
+Theme Name: woaixiao(手机版)
+Theme URI: http://woaixiao.cn/
+Description: 我爱笑
+Author: He Minjie
+Author URI: 
+Version: 1.0.1
+
+General comments and license statement (optional).
+*/
+@charset "utf-8";
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+a:focus { outline: none; }
+.clearfix:after {
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+	overflow: hidden;
+	visibility: hidden;
+}
+.ui-header {
+	padding: 5px 0 !important;
+}
+.nav_btn {
+	top: 10px !important;
+	line-height: 0;
+}
+.nav_btn a {
+	display: inline-block;
+	line-height: 0;
+}
+#list, #home { left: 10px; }
+#login, #share { right: 10px; }
+.ui-content {
+	padding: 0;
+	margin: 0 auto;
+	background-color: #EDE4D5;
+}
+.ui-body-c {background: #EDE4D5;}
+.ui-panel {background: #FFF;}
+.ui-listview .ui-li-icon {
+	max-width: 24px;
+	max-height: 24px;
+	margin-top: -6px;
+}
+.ui-icon-user {
+	background-image: url( ui/user2.png );
+}
+.article_box, #pagenav, .comments {
+	margin: 10px 8px;
+	background-color: #FFF;
+	border-color: #E6DDCF #D9D1C3 #CBC3B6;
+	border-style: solid;
+	border-width: 1px 1px 2px;
+	border-radius: 4px;
+	position: relative;
+}
+.article_box img {max-width: 100%;}
+.author, .info {color: #9E8C7B;}
+.avatar {vertical-align: middle;}
+.commentlist {
+	list-style: none;
+	margin: 0;
+    padding: 12px;
+}
+.comment_bar {
+	font-size: 14px;
+	line-height: 28px;
+}
+.comment_title {
+    border-bottom: 2px solid #966900;
+    color: #96602B;
+    font-size: 16px;
+    padding: 12px;
+}
+.moderation {
+    color: #D67373;
+}
+.article_box .ui-link {display: block;text-decoration: none;}
+.article_box p {color: #333333;font-weight: normal;}
+#pagenav .ui-btn { margin: 0;box-shadow: none;border: 0 none;}
+#pagenav .nextpage {border-left: 1px solid #D9D1C3;}
+.article_box .mark {
+	position: absolute;
+	right: 10px;
+	bottom: 45px;
+	width: 48px;
+	height: 48px;
+	background: url(ui/marks.png) no-repeat 0 0 scroll transparent;
+}
+.article_box .mark_video {background-position: 0 -48px;}
+.article_box .mark_gif {background-position: 0 -96px;}
+.article_box .mark_more {background-position: 0 -144px;}
+.article_box .more {color: #007CFF;}
+.author, .content, .toolbar {margin: 8px 12px;}
+.author img {vertical-align: middle;margin-right: 8px;width: 32px;height: 32px;}
+.author span {font-size: 18px;display: inline-block;line-height: 32px;}
+.ui-ad {
+	height: 60px;
+	box-shadow: 0 -5px 5px rgba(0, 0, 0, 0.15);
+	border: 0 none;
+	text-align: center;
+	padding: 0;
+}
+.ui-page {
+	padding-bottom: 60px;
+}
+.toolbar_left {float: left;}
+.toolbar_right {float: right;}
+.toolbar a {
+	float: left;
+	color: #9E8C7B !important;
+	font-weight: normal !important;
+	border-style: solid;
+	border-width: 1px 1px 2px;
+	border-radius: 2px;
+	padding: 2px 5px;
+	font-size: 16px !important;
+	line-height: 16px;
+	height: 16px;
+	background-size: 16px 16px;
+	background-repeat: no-repeat;
+	background-origin: content-box;
+	position: relative;
+}
+.toolbar .toolbar_left a {margin-right: 10px;}
+.toolbar .toolbar_right a {margin-left: 10px;}
+.toolbar a:hover {color: #9E8C7B !important;}
+.toolbar a:before {content: "";margin-left: 18px;}
+.toolbar .vote_up { background-image: url( ui/grin.png ); }
+.toolbar .vote_down { background-image: url( ui/angry.png ); }
+.voted a {color: #BF4131 !important;}
+.voted a:hover {color: #BF4131 !important;}
+.voted  .vote_up { background-image: url( ui/grin2.png ); }
+.voted  .vote_down { background-image: url( ui/angry2.png ); }
+.toolbar .share { background-image: url( ui/share2.png ); }
+#foot_nav .ui-btn-text {
+	font-size: 18px;
+	line-height: 26px;
+}
+#foot_nav img {vertical-align: top;margin-right: 5px;}
+#wxshare {box-shadow: none;}
+.vdo_thumb {display: none;}
+
+.ad_box {
+	margin: 10px 8px;
+	text-align: center;
+}
